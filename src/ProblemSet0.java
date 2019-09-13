@@ -14,39 +14,37 @@
  * questions, and fix your mistakes. It's the only way to get good at programming.
  */
 
-Public Class PSet0 {
-
-    public void Main(String args) {
-
-        /*
+public class ProblemSet0 {
+	
+	public static void main(String[] args) {
+        
+		/*
          * Exercise 1.
          * 
          * Print a message to the console.
          */
 
-        System.outprintln("\nHello, world! Am I a programmer yet?);
+        System.out.println("\nHello, world! Am I a programmer yet?");
 
         /*
          * Exercise 2.
          * 
          * Print APCS in block letters to the console.
          */
-
-        System.out.println("##     ######  ######## ########");
-        System.out.printline(  #  #####");
-        System.out.println(" #    #  #    # #        #");
-        System.out.Println("######## #####  #        ########");
-        System.out.prinltn("#####");
-        System.Out.println("#      # #       #               #");
-        system.out.println("#################");
-
+        System.out.println("\n   ##     ######  ######## ########");
+        System.out.println("  #  #    #     # #        #");
+        System.out.println(" #    #   #     # #        #");
+        System.out.println("########  ######  #        ########");
+        System.out.println("#      #  #       #               #");
+        System.out.println("#      #  #       #               #");
+        System.out.println("#      #  #       ######## ########");
         /*
          * Exercise 3.
          * 
          * Print a quoted message to the console.
          */
 
-        System.out.println(""The answer's quite simple", the professor said. "Just think outside the box!"");
+        System.out.println("\n\"The answer's quite simple,\" the professor said. \"Just think outside the box!\"");
 
         /*
          * Exercise 4.
@@ -54,12 +52,12 @@ Public Class PSet0 {
          * Print a face to the console.
          */
 
-        System.out.println("   \\\\\")
-        System.out.println("  +"""""+");
-        System.out.println("(|  0 0  |)");
-        System.out.println(" |   ^   |");
-        System.out.println(" |  '-'  |")
-        System.out.println("  +-----+\n");
+           System.out.println("\n        \\\\\\\\\\");
+    System.out.println("       +\"\"\"\"\"+");
+    System.out.println("     (|  0 0  |)");
+    System.out.println("      |   ^   |");
+    System.out.println("      |  '-'  |");
+    System.out.println("       +-----+\n");
 
         /*
          * Exercise 5.
@@ -67,7 +65,7 @@ Public Class PSet0 {
          * Print a to-do list to the console.
          */
 
-        System.out.println("Here's today's to-do list:");
+        System.out.println("\nHere's today's to-do list:");
         System.out.println("\t- Go food shopping");
         System.out.println("\t- Mow the lawn\n");
 
@@ -77,7 +75,11 @@ Public Class PSet0 {
          * Print a square of text to the console.
          */
 
-        System.out.println("H E L L O\nEA\nLP\nLC\nO A P C);
+        System.out.println("\nH E L L O");
+        System.out.println("E\t \tA");
+        System.out.println("L\t \tP");
+        System.out.println("L\t \tC");
+        System.out.println("O A P C S");
 
         /*
          * Exercise 7.
@@ -85,7 +87,7 @@ Public Class PSet0 {
          * Print a countdown to the console.
          */
 
-        System.out.println("Three.\tTwo.\tOne.\tGo!\n";
+        System.out.println("\nThree.\tTwo.\tOne.\tGo!\n");
 
         /*
          * Exercise 8.
@@ -93,12 +95,12 @@ Public Class PSet0 {
          * Print three diamonds to the console.
          */
 
-        System.out.println(     /\     /\");
-        System.out.printn(" /  \ /  \   /  \");
-        System.out.println("/    \   \ /    \");
-        System.out.printn("\    / \  \    /");
-        System.out.println(" \  /   \  /   \  /");
-        System.out.printn("  \/     \/   /")
+        System.out.println("\n   /\\     /\\     /\\");
+        System.out.println("  /  \\   /  \\   /  \\");
+        System.out.println(" /    \\ /    \\ /    \\");
+        System.out.println(" \\    / \\    / \\    /");
+        System.out.println("  \\  /   \\  /   \\  /");
+        System.out.println("   \\/     \\/     \\/");
 
         /*
          * Exercise 9.
@@ -106,7 +108,7 @@ Public Class PSet0 {
          * Print an encouraging message to the console.
          */
 
-        System.out.println(You're almost done with your first problem set...);
+        System.out.println("\nYou're almost done with your first problem set...");
 
         /*
          * Exercise 10.
@@ -114,7 +116,13 @@ Public Class PSet0 {
          * Print a plus sign to the console.
          */
 
-        System.out.println("+---+||");
-        System.out.println("+---++---+||+---++---+")
-        System.out.println("||+---+")
+        System.out.println("\n\n\t+---+\t");
+        System.out.println("\t|\t|");
+        System.out.println("+---+\t+---+");
+        System.out.println("|\t\t\t|");
+        System.out.println("+---+\t+---+");
+        System.out.println("\t|\t|\t");
+		System.out.println("\t+---+\t");
+
+	}
 }
